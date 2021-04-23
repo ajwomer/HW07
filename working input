@@ -1,0 +1,72 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <math.h>
+#define SIZE 35
+
+int getSortOption(); //retrieves the input for the sorting option 
+int getArray(int inputarray[SIZE]); //retrieves and stores the elements from the input array
+int main()
+{
+    //Declarations
+    int sortoption; //input for the sorting option from user input 
+    int size; //number of elements in the input array 
+    int inputarray[SIZE]; //array of elements inputted by the user
+    
+    //Input Section
+    sortoption = getSortOption(); //retrieves the input for the sorting option
+    size = getArray(inputarray); //retrieves and stores the elements from the input array
+
+    //Calculation Section
+    
+    return 0;
+}
+
+//FUNCTION HEADER - getSortOption
+
+int getSortOption(int sortoption)
+{
+    int option; //local variable for the sorting option input 
+    do
+    {
+        printf("Enter sorting option (1) count or (2) power of two -> ");
+        scanf("%d", &option);
+        
+        if (option != 1 && option != 2)
+        {
+            printf("\nError! Enter option 1 or 2 only!\n\n");
+        }
+    } while (option != 1 && option != 2);
+    
+    sortoption = option;
+    return(sortoption);
+}
+
+//FUNCTION HEADER - getArray
+int getArray(int inputarray[SIZE])
+{
+    int index; //local variable used for indexing
+    int x; //local variable used for indexing
+    int size; //local variable used for determining the size of the input array 
+    size = 35;
+    
+    printf("Enter up to 35 integer values -> ");
+    
+    for(index = 0; index < 35; ++index)
+    {
+        scanf("%d", &x);
+        if (x < 0)
+        {
+            size = index;
+            index = 50;
+        }
+        inputarray[index] = x;
+    }
+    return(size);
+}
