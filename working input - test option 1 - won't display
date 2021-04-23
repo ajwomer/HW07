@@ -1,0 +1,144 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+#include <math.h>
+#define SIZE 35
+
+int getSortOption(); //retrieves the input for the sorting option 
+int getArray(int inputarray[SIZE]); //retrieves and stores the elements from the input array
+void opt1calc(int, int inputarray[SIZE]); //calculates the new elements using the sorting method 1
+//void opt2calc(int, int inputarray[SIZE]); //calculates the new elements using the sorting method 2
+
+int main()
+
+{
+    //Declarations
+    int sortoption; //input for the sorting option from user input 
+    int size; //number of elements in the input array 
+    int inputarray[SIZE]; //array of elements inputted by the user
+    int index; 
+    
+    //Input Section
+    sortoption = getSortOption(); //retrieves the input for the sorting option
+    size = getArray(inputarray); //retrieves and stores the elements from the input array
+
+    //Calculation Section
+    opt1calc(size, inputarray);
+    //if (sortoption == 1)
+    //{
+    //    opt1calc(size, inputarray);
+    //}
+    //switch(sortoption)
+    //{
+    //    case 1:
+    //    opt1calc(size, inputarray); 
+    //    break;
+        //case 2:
+        //opt2calc(size, inputarray);
+        //break;
+    //}
+    
+    return 0;
+}
+
+//FUNCTION HEADER - getSortOption
+
+int getSortOption(int sortoption)
+{
+    int option; //local variable for the sorting option input 
+    do
+    { 
+        printf("Enter sorting option (1) count or (2) power of two -> ");
+        scanf("%d", &option);
+        
+        if (option != 1 && option != 2)
+        {
+            printf("\nError! Enter option 1 or 2 only!\n\n");
+        }
+    } while (option != 1 && option != 2);
+    
+    sortoption = option;
+    return(sortoption);
+}
+
+//FUNCTION HEADER - getArray
+int getArray(int inputarray[SIZE])
+{
+    int index; //local variable used for indexing
+    int x; //local variable used for indexing
+    int size; //local variable used for determining the size of the input array 
+    size = 35;
+    
+    printf("Enter up to 35 integer values -> ");
+    
+    for(index = 0; index < 35; ++index)
+    {
+        scanf("%d", &x);
+        if (x < 0)
+        {
+            size = index;
+            index = 50;
+        }
+        inputarray[index] = x;
+    }
+    
+    return(size);
+}
+
+//FUNCTION HEADER - opt1calc
+void opt1calc(int size, int inputarray[SIZE])
+{
+    int i; //local variable used for indexing in loops
+    int element; //local variable the represents the element in the array for a given iteration
+    int opt1array[SIZE]; //local array used for holding the calculated answers
+    int current; //local variable that represents the current value in the loop
+    int last; //local variable that represents the value from the previous iteration
+    int walker; //local variable used for sorting the array 
+    int temp; //local variable used for storing a temporary value 
+    int count; //local variable used for incrementing the print loop
+    int newcalc; //local variable for storing the element calculations
+    
+    for(i = 0; i < size; ++i)
+    {  
+        element = inputarray[i];
+        while (element > 1)
+        {
+            if(element % 2 == 0)
+            {
+                element = element / 2;
+            }
+            else
+            { 
+                element = (3 * element) + 1;
+            }
+        } 
+        opt1array[i] = element;
+    } 
+    for (int current = 0; current < last; ++current)
+    {
+        //printf("TEST\t");
+        //Inner loop: Bubble up one element each pass
+        for (walker = last; walker > current; walker--)
+        {
+            if (opt1array[walker] < opt1array[walker - 1])
+            {
+                temp = inputarray[walker];
+                inputarray[walker] = inputarray[walker - 1];
+                inputarray[walker - 1] = temp;
+            }
+        }
+    }
+    
+    printf("\nSorted data by count: ");
+    for(count = 0; count < size; ++count)
+    {
+        printf("%d ", opt1array[count]);
+    }
+    return;
+}
