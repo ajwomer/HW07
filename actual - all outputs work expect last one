@@ -1,0 +1,89 @@
+Last login: Mon Apr 26 12:46:28 on ttys000
+pal-nat186-135-250:~ allisonwomer$ ssh awomer@guru.itap.purdue.edu
+awomer@guru.itap.purdue.edu's password: 
+Last login: Mon Apr 26 12:46:40 2021 from pal-nat186-135-250.itap.purdue.edu
+
+##########################################################
+#                                                        #
+#  Unauthorized access or misuse of computer resources   #
+#  or disclosure of sensitive information may result in  #
+#  disciplinary or legal action.                         #
+#                                                        #
+##########################################################
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+  Finish strong!  Only lab 11, weekly quiz #11, 
+  and homework 7 remain as opportunities to 
+  earn points this semester.  
+  
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+You are currently logged in as: awomer
+109 lpvinslogin01.itap.purdue.edu ~  % cd CS159
+110 lpvinslogin01.itap.purdue.edu ~/CS159  % ls
+exams/  hw/  labs/
+111 lpvinslogin01.itap.purdue.edu ~/CS159  % cd hw
+112 lpvinslogin01.itap.purdue.edu ~/CS159/hw  % ls
+hw01/  hw01.c  hw02/  hw03/  hw04/  hw05/  hw06/  hw07/
+113 lpvinslogin01.itap.purdue.edu ~/CS159/hw  % cd hw07
+114 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+
+        while(change > 1 && (change % 2 == 0))
+        {
+          change = change / 2;
+          if(change == 1)
+          {
+            POWER = element;
+            element = 0;
+          }
+        }
+      }
+    }
+    printf("POWER(%d) = %d\n", i, POWER);
+    opt2CALC[i] = POWER;
+  }
+
+  //BUBBLE SORT
+  for (i = 0; i < size; i++)
+  {
+    for (j = 0; j < size - i - 1; j++)
+    {
+      if (opt2CALC[j] > opt2CALC[j + 1])
+      {
+        temp = opt2input[j];
+        opt2input[j] = opt2input[j + 1];
+        opt2input[j + 1] = temp;
+
+        temporary = opt2CALC[j];
+        opt2CALC[j] = opt2CALC[j + 1];
+        opt2CALC[j + 1] = temp;
+      }
+
+      else if(opt2CALC[j] == opt2CALC[j + 1])
+      {
+        if(opt2input[j] > opt2input[j + 1])
+        {
+          t = opt2input[j];
+          opt2input[j] = opt2input[j + 1];
+          opt2input[j + 1] = t;
+
+          Temp = opt2CALC[j];
+          opt2CALC[j] = opt2CALC[j + 1];
+          opt2CALC[j + 1] = Temp;
+
+        }
+      }
+    }
+  }
+
+  //PRINT STATEMENTS
+  printf("Sorted data by power of two: ");
+  for (i= 0; i < size; i++)
+  {
+    printf("%d ", opt2input[i]);
+  }
+  printf("\n");
+  return;
+}
