@@ -1,0 +1,1279 @@
+Last login: Mon Apr 26 10:27:49 on ttys000
+pal-nat186-135-250:~ allisonwomer$ ssh awomer@guru.itap.purdue.edu
+awomer@guru.itap.purdue.edu's password: 
+Last login: Mon Apr 26 10:28:00 2021 from 10.184.7.20
+
+##########################################################
+#                                                        #
+#  Unauthorized access or misuse of computer resources   #
+#  or disclosure of sensitive information may result in  #
+#  disciplinary or legal action.                         #
+#                                                        #
+##########################################################
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+  Finish strong!  Only lab 11, weekly quiz #11, 
+  and homework 7 remain as opportunities to 
+  earn points this semester.  
+  
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+You are currently logged in as: awomer
+109 lpvinslogin01.itap.purdue.edu ~  % cd CS159
+110 lpvinslogin01.itap.purdue.edu ~/CS159  % ls
+exams/  hw/  labs/
+111 lpvinslogin01.itap.purdue.edu ~/CS159  % cd hw
+112 lpvinslogin01.itap.purdue.edu ~/CS159/hw  % ls
+hw01/  hw01.c  hw02/  hw03/  hw04/  hw05/  hw06/  hw07/
+113 lpvinslogin01.itap.purdue.edu ~/CS159/hw  % cd hw07
+114 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % ls
+a.out*  hw07.c
+115 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % hw07.c
+hw07.c: Permission denied.
+116 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vihw07..c
+vihw07..c: Command not found.
+117 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+118 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % rm hw07.c
+rm: remove regular file `hw07.c'? Y
+119 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+120 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.
+gcc: hw07.: No such file or directory
+121 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+hw07.c: In function 'main':
+hw07.c:43: warning: unused variable 'POWER'
+hw07.c:42: warning: unused variable 'possible'
+hw07.c:41: warning: unused variable 'applications2'
+hw07.c:40: warning: unused variable 'applications1'
+hw07.c:39: warning: unused variable 'temp'
+hw07.c:38: warning: unused variable 'index'
+hw07.c:37: warning: unused variable 'opt2CALC'
+hw07.c:36: warning: unused variable 'opt1CALC'
+hw07.c: In function 'option1CALC':
+hw07.c:130: warning: unused variable 'index'
+hw07.c: In function 'option2CALC':
+hw07.c:221: warning: unused variable 'index'
+hw07.c:220: warning: unused variable 'applications2'
+hw07.c:217: warning: unused variable 'stop'
+hw07.c:216: warning: unused variable 'po'
+hw07.c:212: warning: unused variable 'ans'
+hw07.c:211: warning: unused variable 'possible'
+122 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+123 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+124 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+hw07.c: In function 'option2CALC':
+hw07.c:211: warning: unused variable 'possible'
+125 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+126 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+127 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % a.out
+Enter sorting option (1) count or (2) power of two -> 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 2
+
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> 
+Error! Enter option 1 or 2 only!
+
+Enter sorting option (1) count or (2) power of two -> Enter up to 35 integer values -> 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+POWER(0) = 16
+POWER(1) = 16
+POWER(2) = 16
+POWER(3) = 16
+POWER(4) = 32
+POWER(5) = 16
+POWER(6) = 16
+POWER(7) = 16
+POWER(8) = 16
+POWER(9) = 16
+POWER(10) = 16
+POWER(11) = 16
+POWER(12) = 16
+POWER(13) = 16
+POWER(14) = 16
+POWER(15) = 64
+POWER(16) = 16
+POWER(17) = 16
+POWER(18) = 16
+POWER(19) = 16
+POWER(20) = 16
+POWER(21) = 16
+POWER(22) = 16
+POWER(23) = 16
+POWER(24) = 16
+POWER(25) = 16
+POWER(26) = 16
+POWER(27) = 16
+POWER(28) = 8
+POWER(29) = 16
+POWER(30) = 16
+POWER(31) = 16
+POWER(32) = 4
+POWER(33) = 16
+POWER(34) = 0
+Sorted data by power of two: 2 4 5 8 9 10 11 12 12 13 14 15 6 7 3 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 33 34 35 32 21 
+128 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+129 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+130 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % a.out
+Enter sorting option (1) count or (2) power of two -> 2
+Enter up to 35 integer values -> 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+POWER(0) = 16
+POWER(1) = 16
+POWER(2) = 16
+POWER(3) = 32
+POWER(4) = 16
+POWER(5) = 16
+POWER(6) = 16
+POWER(7) = 16
+POWER(8) = 16
+POWER(9) = 16
+POWER(10) = 16
+POWER(11) = 16
+POWER(12) = 16
+POWER(13) = 16
+POWER(14) = 64
+POWER(15) = 16
+POWER(16) = 16
+POWER(17) = 16
+POWER(18) = 16
+POWER(19) = 16
+POWER(20) = 16
+POWER(21) = 16
+POWER(22) = 16
+POWER(23) = 16
+POWER(24) = 16
+POWER(25) = 16
+POWER(26) = 16
+POWER(27) = 8
+POWER(28) = 16
+POWER(29) = 16
+POWER(30) = 16
+POWER(31) = 4
+POWER(32) = 16
+POWER(33) = 0
+POWER(34) = 0
+Sorted data by power of two: 33 34 35 23 22 24 25 26 27 28 29 30 31 32 9 8 10 11 12 13 14 15 16 17 18 19 21 20 4 5 7 6 1 2 3 
+131 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+132 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+133 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % a.out
+Enter sorting option (1) count or (2) power of two -> 2
+Enter up to 35 integer values -> 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 16
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 16
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 16
+POWER(3) = 32
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 16
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 16
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 16
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 16
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 16
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 16
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 16
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 16
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 16
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 16
+POWER(14) = 64
+POWER(15) = 0
+POWER(15) = 0
+POWER(15) = 16
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 16
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 16
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 16
+POWER(19) = 16
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 16
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 16
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 16
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 16
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 16
+POWER(25) = 0
+POWER(25) = 16
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 16
+POWER(27) = 8
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 16
+POWER(29) = 0
+POWER(29) = 0
+POWER(29) = 0
+POWER(29) = 16
+POWER(30) = 16
+POWER(31) = 4
+POWER(32) = 0
+POWER(32) = 0
+POWER(32) = 16
+POWER(33) = 0
+Sorted data by power of two: 2 3 4 5 8 9 10 11 12 13 14 15 6 7 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 33 34 35 32 1 
+134 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+135 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % gcc hw07.c
+136 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % a.out
+Enter sorting option (1) count or (2) power of two -> 2
+Enter up to 35 integer values -> 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19
+18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 0
+POWER(0) = 16
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 0
+POWER(1) = 16
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 0
+POWER(2) = 16
+POWER(3) = 32
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 0
+POWER(4) = 16
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 0
+POWER(5) = 16
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 0
+POWER(6) = 16
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 0
+POWER(7) = 16
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 0
+POWER(8) = 16
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 0
+POWER(9) = 16
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 0
+POWER(10) = 16
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 0
+POWER(11) = 16
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 0
+POWER(12) = 16
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 0
+POWER(13) = 16
+POWER(14) = 64
+POWER(15) = 0
+POWER(15) = 0
+POWER(15) = 16
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 0
+POWER(16) = 16
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 0
+POWER(17) = 16
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 0
+POWER(18) = 16
+POWER(19) = 16
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 0
+POWER(20) = 16
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 0
+POWER(21) = 16
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 0
+POWER(22) = 16
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 0
+POWER(23) = 16
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 0
+POWER(24) = 16
+POWER(25) = 0
+POWER(25) = 16
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 0
+POWER(26) = 16
+POWER(27) = 8
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 0
+POWER(28) = 16
+POWER(29) = 0
+POWER(29) = 0
+POWER(29) = 0
+POWER(29) = 16
+POWER(30) = 16
+POWER(31) = 4
+POWER(32) = 0
+POWER(32) = 0
+POWER(32) = 16
+POWER(33) = 0
+Sorted data by power of two: 1 2 4 5 8 9 10 11 12 13 14 15 6 7 3 16 17 18 19 20 22 23 24 25 26 27 28 29 30 31 33 34 35 32 21 
+137 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw03.c
+138 lpvinslogin01.itap.purdue.edu ~/CS159/hw/hw07  % vi hw07.c
+
+        change = element;
+        while(change > 1 && (change % 2 == 0))
+        {
+          change = change / 2;
+          if(change == 1)
+          {
+            POWER = element;
+            element = 0;
+          }
+        }
+      }
+     printf("POWER(%d) = %d\n", i, POWER);
+     opt2CALC[i] = POWER;
+    }
+  }
+
+  //BUBBLE SORT
+  for (i = 0; i < size; i++)
+  {
+    for (j = 0; j < size - i - 1; j++)
+    {
+      if (opt2CALC[j] > opt2CALC[j + 1])
+      {
+        temp = opt2input[j];
+        opt2input[j] = opt2input[j + 1];
+        opt2input[j + 1] = temp;
+
+        temporary = opt2CALC[j];
+        opt2CALC[j] = opt2CALC[j + 1];
+        opt2CALC[j + 1] = temp;
+      }
+
+      else if(opt2CALC[j] == opt2CALC[j + 1])
+      {
+        if(opt2input[j] > opt2input[j + 1])
+        {
+          t = opt2input[j];
+          opt2input[j] = opt2input[j + 1];
+          opt2input[j + 1] = t;
+
+          Temp = opt2CALC[j];
+          opt2CALC[j] = opt2CALC[j + 1];
+          opt2CALC[j + 1] = Temp;
+
+        }
+      }
+    }
+  }
+
+  //PRINT STATEMENTS
+  printf("Sorted data by power of two: ");
+  for (i= 0; i < size; i++)
+  {
+    printf("%d ", opt2input[i]);
+  }
+  printf("\n");
+  return;
+}
+                                    
+
