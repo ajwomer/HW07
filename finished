@@ -1,0 +1,329 @@
+/***************************************************************************
+  *
+  * Programmer and Purdue Email Address:
+  * 1. awomer@purdue.edu
+  *
+  * Homework #7:
+  *
+  * Academic Integrity Statement:
+  *
+  * I have not used source code obtained from any other unauthorized source,
+  * either modified or unmodified. Neither have I provided access to my code
+  * to another. The effort I am submitting is my own original work.
+  *
+  * Day, Time, Location of Lab: Tuesdays, 8:30am, SC 231
+  *
+  * Program Description:
+  *
+  ***************************************************************************/
+ #include <stdio.h>
+ #include <math.h>
+ #define SIZE 35
+
+ int getSortOption(); //retrieves the input for the sorting option
+ int getArray(int, int opt1input[SIZE], int opt2input[SIZE]); //retrieves and stores the elements from the input array
+ void option1CALC(int opt1input[SIZE], int); //calculates, sorts, and returns based off of user choice input
+ void option2CALC(int opt2input[SIZE], int); //calculates, sorts and returns basde off of user user choice input
+
+ int main()
+ {
+   //Declarations
+   int sortoption; //input for the sorting option from user input
+   int size; //number of elements in the input array
+   int opt1input[SIZE]; //stores the input array for option 1
+   int opt2input[SIZE]; //stores the input array for option 2
+
+   //Input Section
+   sortoption = getSortOption(); //retrieves the input for the sorting option
+   size = getArray(sortoption, opt1input, opt2input); //retrieves and stores the elements from the input array
+
+   //Calculation Section - determines which calculation function to run based off of user's option selection
+   if(sortoption == 1)
+   {
+   option1CALC(opt1input, size);
+   }
+
+   else if(sortoption == 2)
+   {
+   option2CALC(opt2input, size);
+   }
+   return 0;
+ }
+ /***************************************************************************
+ *
+ * Function Information
+ *
+ * Name of Function: getSortOption
+ *
+ * Function Return Type: int
+ *
+ * Parameters (list data type, name, and comment one per line):
+ * 1. int sortoption - the sorting option selected by the user
+ *
+ * Function Description:
+ * This function asks the user for their sorting option choice and stores it for later use.
+ ***************************************************************************/
+
+ int getSortOption(int sortoption)
+ {
+   int option; //local variable for the sorting option input
+
+   do
+   {
+   printf("Enter sorting option (1) count or (2) power of two -> ");
+   scanf("%d", &option);
+
+   if (option != 1 && option != 2)
+   {
+   printf("\nError! Enter option 1 or 2 only!\n\n");
+   }
+   } while (option != 1 && option != 2);
+
+   sortoption = option;
+   return(sortoption);
+ }
+
+ /***************************************************************************
+ *
+ * Function Information
+ *
+ * Name of Function: getArray
+ *
+ * Function Return Type: int
+ *
+ * Parameters (list data type, name, and comment one per line):
+ * 1. int sortoption, the sorting option selected by the user
+ * 2. int opt1input[SIZE], the array holding the user's input for option 1
+ * 3. int opt2input[SIZE], the array holding the user's input for option 2
+ *
+ * Function Description:
+ * This function asks the user for their input array and stores it for later use.
+ ***************************************************************************/
+ int getArray(int sortoption, int opt1input[SIZE], int opt2input[SIZE])
+ {
+   int index; //local variable used for indexing
+   int x; //local variable used for indexing
+   int size; //local variable used for determining the size of the input array
+   size = 35;
+
+   printf("Enter up to 35 integer values -> ");
+
+   switch(sortoption)
+   {
+   case 1:
+   {
+   for(index = 0; index < 35; ++index)
+   {
+   scanf("%d", &x);
+   if (x < 0)
+   {
+   size = index;
+   index = 50;
+   }
+   opt1input[index] = x;
+   }
+   break;
+   }
+
+   case 2:
+   {
+   for(index = 0; index < 35; ++index)
+   {
+   scanf("%d", &x);
+   if (x < 0)
+   {
+   size = index;
+   index = 50;
+   }
+   opt2input[index] = x;
+   }
+   }
+   }
+
+   return(size);
+ }
+ /***************************************************************************
+ *
+ * Function Information
+ *
+ * Name of Function: option1CALC
+ *
+ * Function Return Type: none
+ *
+ * Parameters (list data type, name, and comment one per line):
+ * 1. int opt1input[SIZE], array that holds the input for option 1
+ * 2. int size, the number of element in the input array
+ *
+ * Function Description:
+ * This function sorts the input array based off the criteria for option 1 and displays the sorted array
+ ***************************************************************************/
+
+
+ void option1CALC(int opt1input[SIZE], int size)
+ {
+   int applications1; //local variable that represents the number of times the calculation was performed
+   int element; //local variable that represents the specific element of the array
+   int counter; //local variable that is used for counting the loop
+   int i; //local variable that is used for indexing the loop
+   int j; //local variable that is used for indexing the loop
+   int temp; //local variable that is used for storing a temporary value
+   int temporary; //local variable that is used for storing a temporary value
+   int t; //local variable that is used for storing a temporary value
+   int Temp; //local variable that is used for storing a temporary value
+   int opt1CALC[SIZE]; //array used to store the option 1 calculations for sorting
+   applications1 = 0;
+
+   for(counter = 0; counter < size; ++counter)
+   {
+   applications1 = 0;
+   element = opt1input[counter];
+   while(element > 1 && counter < size) //is the calculation greater than 1?
+   {
+   if(element % 2 == 0) //is the element even?
+   {
+   element = element / 2;
+   }
+   else //is the element odd?
+   {
+   element = (element * 3) + 1;
+   }
+
+   applications1++;
+   }
+   temp = applications1;
+   opt1CALC[counter] = temp;
+   }
+
+   //BUBBLE SORT
+   for (i = 0; i < size; i++)
+   {
+   for (j = 0; j < size - i - 1; j++)
+   {
+   if (opt1CALC[j] > opt1CALC[j + 1])
+   {
+   temp = opt1input[j];
+   opt1input[j] = opt1input[j + 1];
+   opt1input[j + 1] = temp;
+
+   temporary = opt1CALC[j];
+   opt1CALC[j] = opt1CALC[j + 1];
+   opt1CALC[j + 1] = temporary;
+   }
+
+   else if(opt1CALC[j] == opt1CALC[j + 1])
+   {
+   if(opt1input[j] > opt1input[j + 1])
+   {
+   t = opt1input[j];
+   opt1input[j] = opt1input[j + 1];
+   opt1input[j + 1] = t;
+
+   Temp = opt1CALC[j];
+   opt1CALC[j] = opt1CALC[j + 1];
+   opt1CALC[j + 1] = Temp;
+
+   }
+   }
+   }
+   }
+
+   //PRINT STATEMENTS
+   printf("Sorted data by count: ");
+   for (i= 0; i < size; i++)
+   {
+   printf("%d ", opt1input[i]);
+   }
+   printf("\n");
+   return;
+ }
+
+/***************************************************************************
+ *
+ * Function Information
+ *
+ * Name of Function: option2CALC
+ *
+ * Function Return Type: none
+ *
+ * Parameters (list data type, name, and comment one per line):
+ * 1. int opt2input[SIZE], array that holds the input for option 1
+ * 2. int size, the number of element in the input array
+ *
+ * Function Description:
+ * This function sorts the input array based off the criteria for option 2 and displays the sorted array
+ ***************************************************************************/
+ 
+ void option2CALC(int opt2input[SIZE], int size)
+ {
+   int i; //local variable used for indexing the loop
+   int element; //local variable that represents the element in the array
+   int POWER; //local variable that represents the final element when the condition is not longer met
+   int j; //local variable used for indexing
+   int temp; //local variable used for storing a temporary value
+   int temporary; //local variable used for storing a temporary value
+   int t; //local variable used for storing a temporary value
+   int Temp; //local variable used for storing a temporary value
+   int change; //local variable that represents the new element calculation
+   int opt2CALC[SIZE]; //array that stores the calculated resutls from option 2 for sorting
+   POWER = 0;
+
+   for(i = 0; i < size; ++i)
+   {
+   element = opt2input[i];
+   POWER = 0;
+
+   while(ceil(log2(element)) != floor(log2(element)))
+   {
+       if (element % 2 == 0)
+       {
+           element /= 2;
+       }
+       else
+       {
+           element = 3 * element + 1;
+       }
+   }
+   opt2CALC[i] = element;
+   }
+
+   //BUBBLE SORT
+   for (i = 0; i < size; i++)
+   {
+   for (j = 0; j < size - i - 1; j++)
+   {
+   if (opt2CALC[j] > opt2CALC[j + 1])
+   {
+   temp = opt2input[j];
+   opt2input[j] = opt2input[j + 1];
+   opt2input[j + 1] = temp;
+
+   temporary = opt2CALC[j];
+   opt2CALC[j] = opt2CALC[j + 1];
+   opt2CALC[j + 1] = temporary;
+   }
+
+   else if(opt2CALC[j] == opt2CALC[j + 1])
+   {
+   if(opt2input[j] > opt2input[j + 1])
+   {
+   t = opt2input[j];
+   opt2input[j] = opt2input[j + 1];
+   opt2input[j + 1] = t;
+
+   Temp = opt2CALC[j];
+   opt2CALC[j] = opt2CALC[j + 1];
+   opt2CALC[j + 1] = Temp;
+   }
+   }
+   }
+   }
+   
+ //PRINT STATEMENTS
+   printf("Sorted data by power of two: ");
+   for (i= 0; i < size; i++)
+   {
+   printf("%d ", opt2input[i]);
+   }
+   printf("\n");
+   return;
+ }
